@@ -1,0 +1,44 @@
+.two ul {
+  background: #DCDCDC;
+  overflow: hidden;
+  padding: 0; 
+  
+}
+.two li {
+  float: left;
+  color: #DCDCDC;
+  list-style-type: none;
+}
+					
+.submit1 {
+  height: 50.5px;
+  width: 150px;
+  font-size: 90%;
+  background: #DCDCDC;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  overflow: hidden;
+  padding: 0;
+  color: #000000;
+  z-index: 999999;
+}	
+.submit1:hover {background: #A9A9A9}
+
+.submit2 {
+  height: 30.5px;
+  width: 90px;
+  font-size: 90%;
+  background: #DCDCDC;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 0;
+  color: #000000;
+  z-index: 999999;
+}	
+.submit2:hover {background: #A9A9A9}

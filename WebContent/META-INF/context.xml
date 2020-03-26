@@ -1,0 +1,14 @@
+<!-- Change the lines below according your RDBMS and DB -->
+
+<Context>
+	<Resource name="jdbc/final_project"
+		auth="Container" 
+		type="javax.sql.DataSource"
+		maxActive="100" maxIdle="30" maxWait="10000"
+		username="root" password="0770" 
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		defaultAutoCommit="false"
+		defaultTransactionIsolation="READ_COMMITTED"
+		connectionProperties="serverTimezone=UTC;useUnicode=yes;characterEncoding=utf8;"
+		url="jdbc:mysql://localhost:3306/final_project"/>
+</Context>
